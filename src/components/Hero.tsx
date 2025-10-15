@@ -4,7 +4,7 @@ import Vector from "../assets/Vector.svg";
 const Hero = () => {
   return (
     <section className="relative">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-[1172px] w-full px-4 sm:px-6 lg:px-[60px] mx-auto gap-8 md:gap-12 mt-12 md:mt-24">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-[1172px] w-full px-4 sm:px-6 lg:px-[60px] mx-auto gap-8 md:gap-12 mt-30 md:mt-24">
         <div className="flex-1 w-full">
           <h1 className="text-[32px] md:text-[40px] lg:text-[48px] font-bold text-center lg:text-left leading-tight md:leading-tight">
             Mutual Investment
