@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #d2d2d2;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --breakpoint-xl: 1440;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1d1d1d;
+    --foreground: #d2d2d2;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Overpass", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@utility container1 {
+  padding-right: 120px;
+  padding-left: 120px;
+
+  @media (max-width: 640px) {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+}
